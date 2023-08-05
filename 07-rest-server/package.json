@@ -1,0 +1,33 @@
+{
+  "name": "07-rest-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "bastian-g11 <sgr00114@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "semistandard",
+      "prettier"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.9.0",
+    "prettier": "^3.0.0",
+    "semistandard": "^17.0.0"
+  }
+}
